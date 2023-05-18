@@ -1,0 +1,6 @@
+.env
+bot.py
+chromedriver.exe
+LICENSE.chromedriver
+reCAPTCHA.mp3
+reCAPTCHA.wav
