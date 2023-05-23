@@ -137,8 +137,8 @@ def websiteLogIn(emailAddress, password):
 
     return token
 
+if __name__ == '__main__':
+    emailAddress, password = websiteRegistration()
+    subscriptionToken = websiteLogIn(emailAddress, password)
 
-emailAddress, password = websiteRegistration()
-subscriptionToken = websiteLogIn(emailAddress, password)
-
-print(f'[Info] - This {subscriptionToken} Token Is Dedicated To This {emailAddress} Email Address')
+    print(f'[Info] - This {subscriptionToken} Token Is Dedicated To This {emailAddress} Email Address')
